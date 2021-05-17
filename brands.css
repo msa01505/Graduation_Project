@@ -1,0 +1,45 @@
+/*hejabi*/
+.he{
+    /* background-color:#E6E6E6 ;*/
+     height: 270px !important;
+     margin-bottom: 50px !important;
+ }
+ .hejabi-list{
+     height: 350px !important;
+     margin-right: 15px !important;
+     margin-bottom: 20px !important;
+     width:150% !important;
+ }
+ .collection-list{
+     margin: 50px 0px 50px 0px !important;
+ }
+ .price{
+     margin: 10px  !important;
+     padding-left: 30px !important;
+     color: navy !important;
+ }
+ .main,h1{
+     font-style: oblique !important;
+ }
+ 
+ .button {
+     border: none !important;
+     border-radius: 5px !important;
+     outline: 0 !important;
+     display: inline-block !important;
+     margin-bottom: 30px !important;
+     margin-top: 4px !important;
+     padding:8px !important;
+     color: white !important;
+     background-color: #A9D0F5 !important;
+     text-align: center !important;
+     cursor: pointer !important;
+     width: 70% !important;
+     
+     
+     
+   }
+   
+   .button:hover {
+     background-color: #555 !important;
+   }

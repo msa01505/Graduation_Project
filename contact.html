@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<style>*{
+  margin: 0;
+  padding: 0;
+  font-family:"Curlz MT",sans-serif;
+}
+body{
+  background: #f2f2f2;
+  padding: 60px 0;
+}
+h1{
+  text-align: center;
+  color: #111;
+}
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+input[type=text]{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  background: #333;
+  padding: 20px 40px;
+}
+input[type=email]{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  background: #333;
+  padding: 20px 40px;
+  }
+  textarea{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  background: #333;
+  padding: 30px 40px;
+  }
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+input[type=submit]{
+  float: right;
+  border: 0;
+  padding: 12px 50px;
+  border-radius: 20px;
+  background-color: #c2d6d6;
+  cursor:grab;
+}
+
+</style>
+
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+
+
+  <h1>Contact Us</h1><br><br>
+  <div class="border"></div>
+  <form class="contact-form" action="index.html" method="post">
+    <input type="text" placeholder="Your name">
+    <input type="email"placeholder="Your email">
+    <input type="text" placeholder="Your phone">
+    <textarea placeholder="Your message"></textarea><br>
+    <input type="submit" class="contact-form-btn" value="Send">
+  </form>
+</div>
+  </body>
+</html>

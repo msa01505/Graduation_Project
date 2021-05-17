@@ -1,0 +1,57 @@
+
+
+                    <div id="get_brand">
+                        
+                              
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$sql = "SELECT brand FROM cat_brand WHERE category = $cat_id";
+                           $result = $conn->query($sql);
+                            $row = $result->fetch_assoc();
+                      $cat_brand = "SELECT * FROM brands WHERE brand_id = $row";
+                      $run_query = mysqli_query($conn,$cat_brand);
+                      if(mysqli_num_rows($run_query) > 0)
+                          {
+                              echo '    <div class="row"> 
+                              ';
+
+                              while($row = mysqli_fetch_array($run_query))
+                              {   
+
+                                $brand_id = $row["brand_id"];
+                                $brand_name = $row["brand_title"];
+                                $brand_link = $row["brand_link"];
+                                $brand_img = $row["brand_img"];
+                                      echo '
+                                                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 body">
+                                                      <a href="'.$brand_link.'" class="button btn-block">
+                                                      <img src="brand/'.$brand_img.'" class="img-fluid" style="width:100%";/>
+                                                          <div class="hover">
+                                                              <div class="filter-gold"></div>
+                                                          </div>
+                                                          </a>
+                                                          </div>
+                                    ';
+                              }
+                              echo '</div>';
+                              }
+
+                                            }

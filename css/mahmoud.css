@@ -1,0 +1,50 @@
+.reco .card {
+  width: 120% !important;
+}
+@media (max-width: 600px) {
+  .reco {
+    top: 80px;
+    left: 0;
+    z-index: 9999;
+  }
+}
+@media (min-width: 600px) {
+  .reco {
+    top: 80px;
+    left: 0;
+    z-index: 9999;
+  }
+}
+@media (min-width: 768px) {
+  .reco {
+    top: 80px;
+    left: 0;
+    z-index: 9999;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .reco {
+    position: fixed;
+    top: 50px !important;
+    left: 0;
+    z-index: 9999;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .reco {
+    position: fixed;
+    top: 50px !important;
+    left: 0;
+    z-index: 9999;
+  }
+}
+.reco .reco-img{
+  max-width: 80px;
+  max-height: 80px;
+  border:3px solid #f1c730;
+}
+.reco .btn {
+  margin-top: 20px;
+  border-radius: 0;
+  color: #34495e;
+}

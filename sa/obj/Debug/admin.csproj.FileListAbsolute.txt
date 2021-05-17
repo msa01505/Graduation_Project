@@ -1,0 +1,6 @@
+c:\users\abraam samir\documents\visual studio 2013\Projects\admin\admin\bin\admin.dll.config
+c:\users\abraam samir\documents\visual studio 2013\Projects\admin\admin\bin\admin.dll
+c:\users\abraam samir\documents\visual studio 2013\Projects\admin\admin\bin\admin.pdb
+c:\users\abraam samir\documents\visual studio 2013\Projects\admin\admin\obj\Debug\admin.csprojResolveAssemblyReference.cache
+c:\users\abraam samir\documents\visual studio 2013\Projects\admin\admin\obj\Debug\admin.dll
+c:\users\abraam samir\documents\visual studio 2013\Projects\admin\admin\obj\Debug\admin.pdb

@@ -1,0 +1,46 @@
+.sora{
+    float: left;
+    width: 120px;
+    padding: 7px;
+
+}
+.right{
+    float: right;
+    margin: 3px;
+    padding: 6px;
+   
+}
+.right {
+    
+}
+header{
+    height: 105px;
+}
+
+.title{
+    float: left;
+    font-family: cursive;
+    letter-spacing: -2px;
+    line-height: 62px;
+}
+nav a{
+    font-style: oblique;
+    padding: 10px;
+    text-decoration-line:none ;
+    font-size: 24px;
+}
+nav {
+    margin:30px   ;
+    margin: 10px 0px;
+    background-color: #8a8a8a87;
+    padding: 0 313px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 65px;
+    padding: 10px;
+}
+nav ul li{
+
+}

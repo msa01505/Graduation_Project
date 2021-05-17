@@ -1,0 +1,259 @@
+.nomall{
+   /*font-family:  " Lucida Console", Courier, monospace ;*/
+   font-family: "Ink Free", cursive !important;
+   font-size: 27px !important;
+}
+.logo{
+    width: 100% !important;
+    height: 600px !important;
+}
+.cate{
+    padding:8px !important;
+    margin: -55px 30px !important;
+    border: 18px solid white !important;
+    top: 0px !important;
+}
+.cs{
+    right:50%;
+}
+.body{
+    background:#e6e6e6 !important;
+    cursor: grab !important;
+}
+/*mn awl hna ll shops*/
+.button:hover{
+       transform: scale(.9) !important;
+       border: .3px solid #e6e6e6 !important;
+   }
+   .button{
+       
+       padding:25px !important;
+   }
+    .cent{
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(0%, 10%) !important;
+   } 
+    .ce{
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(0%, 20%) !important;
+   }  
+   .center {
+        position: absolute !important;
+        top: 75% !important;
+        left: 25% !important;
+        transform: translate(110%, 10%) !important;
+        font-size: 20px !important;
+        color: darkolivegreen !important;
+        font-family:"Curlz MT",sans-serif !important;
+        
+        }
+    .center1 {
+        position: absolute !important;
+        top: 75% !important;
+        left: 25% !important;
+        transform: translate(225%, 20%) !important;
+        font-size: 20px !important;
+        color: darkolivegreen !important;
+        font-family:"Curlz MT",sans-serif !important;
+        }
+        .so{
+            width: 300px !important;
+            border-radius: 8px !important;
+        }
+        /*mn awl hna ll login*/
+        .fost{
+            border-color: darkolivegreen !important;
+            width: 80% !important;
+            border-radius: 10px !important;
+          }
+          .btce{
+            
+            transform: translate(-40%, -20%) !important;
+            width: 27% !important;
+            background-color: darkolivegreen !important;
+            border-color: darkolivegreen !important;
+            border-radius: 10px !important;
+            margin: 15px !important;
+          }
+          .foce{
+            top: 50% !important;
+                  left: 50% !important;
+                  transform: translate(4%, 20% ) !important;
+          }
+          .bodyform{
+            background: url(mall.jpg) no-repeat center center fixed !important;
+            background-size: cover !important;
+        }
+        input[type=submit]:hover {
+            background-color: olivedrab;
+            border-color: darkolivegreen;
+          }
+          input[type=reset]:hover {
+            background-color: olivedrab;
+            border-color: darkolivegreen;
+          }
+
+       /*dallydress css*/
+    .collection-list{
+        color: darkolivegreen;
+        font-family:'Ink Free' ;
+    } 
+    .st{
+        color: darkolivegreen !important;
+        font-family:'Ink Free' !important;
+        font-size: larger !important;
+        top: 50% !important;
+                  left: 50% !important;
+                  transform: translate(30%, 50%) !important;
+                  
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body,html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background:white;
+}
+.header{
+    background: #FFF;
+    box-shadow: 0 1px 4px 0 #D8D8D8;
+    height: 145px;
+    z-index: 99 ;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font:inherit ;
+    vertical-align: baseline;
+}
+
+.icon{
+    float: right;
+    padding: 6px;
+    color: #2E9AFE;
+    
+}    
+
+input{
+    width: 30.85%;
+    background-color:#FFFFFF ;
+    padding: 8px 60px;
+    margin: 5px 370px;
+    border: none;
+    border-radius: 20px;
+    border-bottom: 6px solid red;
+    /*cursor: pointer*/
+
+/*nav {
+      margin:0px;
+      padding:35px 0;
+      background-color: black;
+      box-shadow: 5px grey;
+}
+
+.sora{
+    float: left;
+    width: 100px;
+    padding: 2px;
+    margin-top:-30px;
+}
+h1{
+    float: left;
+    font-family: cursive;
+    letter-spacing: -2px;
+    line-height: 65px; 
+    margin-top: 2px;
+    color:#2E9AFE ;
+}
+
+
+
+table a{
+    font-style: oblique;
+    padding: 10px;
+    margin-right: 65px;
+    text-decoration-line:none ;
+    font-size: 24px;
+    color:#2E9AFE ;
+}
+.home{
+    width: 100%;
+    height: 700px;
+    margin-top: -20px;
+}
+/*table  div{
+    width: 300px;
+    height: 450px;
+    border: 1px solid blue;
+    margin: -6px 90px;
+    padding: 8px;
+    
+}
+.button{
+   
+    width: 250px;
+    height: 250px;
+    top: 0px;
+    left: 280px;
+    position: relative;
+    border: 18px solid white;
+    cursor: grab;
+    transition-duration: .60s;
+    
+   
+}
+.button:hover{
+     transform: scale(.95);
+     border: 1px solid #777;
+ }
+
+.fashion{
+    height: 260px;
+}
+.button1{
+    background:url(home-antiqs.jpg);
+    background-size: cover;
+    background-position: center;
+  
+}
+.button2{
+    background:url(Home-fashion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.button3{
+    background:url(home-fur.jpg);
+    background-size: cover;
+    background-position: center;
+}*/
